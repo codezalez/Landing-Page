@@ -1,0 +1,78 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/****** Header Section ******/
+header {
+    color: #ffffff;
+    background: #1f2937;
+}
+
+/* Nav */
+nav {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 6.25rem;
+}
+
+ul {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    gap: 1rem;
+}
+
+a { 
+    text-decoration: none; 
+    color: #e5e7eb;
+}
+
+/* Hero Section */
+
+.hero-section {
+    display: flex;
+}
+
+.hero-flex {
+    flex: 1;
+    margin: 4rem 0;
+}
+
+.left {
+    margin-left: 5rem; 
+    margin-right: 1rem;
+}
+
+.title {
+    font-size: 48px;
+    font-weight: extra-bold;
+    color: #f9faf8;
+}
+
+.subtext {
+    font-size: 18px;
+    color: #e5e7eb;
+    text-align: left;
+}
+
+button {
+    border-radius: 0.6rem;
+    color: #e5e7eb;
+    background: #3882f6;
+    border: none;
+    padding: 0.5rem 1.5rem;
+    font-size: 1rem;
+}
+
+.right {
+    margin-left: 1rem; 
+    margin-right: 5rem;
+    background: #808080;
+    padding: 6rem 0;
+}
+
+.logo-text {
+    text-align: center;
+}
