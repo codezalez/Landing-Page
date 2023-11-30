@@ -53,7 +53,7 @@ a {
     text-align: left;
 }
 
-button {
+.web-button {
     border-radius: 0.6rem;
     color: #e5e7eb;
     background: #3882f6;
@@ -73,7 +73,7 @@ button {
 
 /****** Main Section ******/
 /* Info section */
-.info {
+.info-section {
     align-items: center;
     text-align: center;
     margin-top: 2rem;
@@ -89,7 +89,7 @@ h2 {
 .boxes {
     justify-content: center;
     align-items: center;
-    margin-top: 2rem;
+    margin: 2rem 0 4rem;
     gap: 3rem;
 }
 
@@ -107,3 +107,27 @@ h2 {
 }
 
 .image-subtext { color: #808080; }
+
+/* Quote section */
+.quote-section { 
+    background: #e5e7eb; 
+    align-items: center;
+    text-align: start;
+    padding: 6rem 0;
+}
+
+.customer-quote { margin: 0 10rem; }
+
+.quote {
+    font-size: 2.8rem;
+    font-weight: light;
+    font-style: italic;
+    color: #1f2937;
+}
+
+.customer {
+    text-align: end;
+    font-size: 1.5rem;
+    font-weight: bolder;
+    margin-right: 3rem;
+}
