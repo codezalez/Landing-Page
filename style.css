@@ -4,6 +4,8 @@
     font-family: 'Times New Roman', Times, serif;
 }
 
+.flex { display: flex; }
+
 /****** Header Section ******/
 header {
     color: #ffffff;
@@ -12,13 +14,11 @@ header {
 
 /* Nav */
 nav {
-    display: flex;
     justify-content: space-between;
     margin: 0 6.25rem;
 }
 
 ul {
-    display: flex;
     justify-content: space-between;
     list-style: none;
     gap: 1rem;
@@ -30,10 +30,6 @@ a {
 }
 
 /* Hero Section */
-
-.hero-section {
-    display: flex;
-}
 
 .hero-flex {
     flex: 1;
@@ -73,6 +69,41 @@ button {
     padding: 6rem 0;
 }
 
-.logo-text {
+.logo-text { text-align: center; }
+
+/****** Main Section ******/
+/* Info section */
+.info {
+    align-items: center;
+    text-align: center;
+    margin-top: 2rem;
+    font-size: 1.5rem;
+}
+
+h2 {
+    color: #1f2937;
+    font-size: 2.5rem;
+    font-weight: bolder;
+}
+
+.boxes {
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+    gap: 3rem;
+}
+
+.box {
+    width: 12rem;
+    align-items: center;
     text-align: center;
 }
+
+.square {
+    width: 11.5rem;
+    height: 11.5rem;
+    border: 0.2rem solid #3882f6;
+    border-radius: 0.6rem;
+}
+
+.image-subtext { color: #808080; }
