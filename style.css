@@ -55,11 +55,13 @@ a {
 
 .web-button {
     border-radius: 0.6rem;
-    color: #e5e7eb;
+    color: #ffffff;
     background: #3882f6;
     border: none;
     padding: 0.5rem 1.5rem;
     font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
 }
 
 .right {
@@ -130,4 +132,40 @@ h2 {
     font-size: 1.5rem;
     font-weight: bolder;
     margin-right: 3rem;
+}
+
+/****** Action Section ******/
+.action-section {
+    align-items: center;
+}
+
+.call-to-action {
+    background: #3882f6;
+    margin: 5rem 7rem;
+    border-radius: 0.6rem;
+    padding: 2.5rem 6rem;
+    justify-content: space-between;
+}
+
+.action-header {
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+.subtext-action {
+    color: #e5e7eb;
+    font-size: 1.5rem;
+}
+
+.action-button {
+    background: #3882f6;
+    color: #ffffff;
+    border: 0.2rem solid #ffffff;
+    border-radius: 0.8rem;
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-top: 0.6rem;
+    padding: 0.6rem 2rem;
+    cursor: pointer;
 }
